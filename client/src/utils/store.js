@@ -1,4 +1,4 @@
 import { createStore } from "redux";
-import reducers from "../pages/reducers";
+import reducers from "../utils/reducers";
 
 export default createStore(reducers);
